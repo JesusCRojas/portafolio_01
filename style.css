@@ -69,15 +69,23 @@ hr {
 }
 
 .btn {
+	/*Los elementos inline-block fluyen con el texto y demás elementos como si fueran elementos 
+	  en-línea y además respetan el ancho, el alto y los márgenes verticales. Son lo mejor de los 
+	  dos mundos.*/
 	display: inline-block;
+
 	font-size: 13px;
+
 	padding: 20px 45px;
 
     /*Transformar texto a MAYÚSCULA.*/
 	text-transform: uppercase;
 	
     cursor: pointer;
+
 	font-weight: 400;
+	
+	/*Establece la separación entre las letras del texto.*/
 	letter-spacing: 1px;
 }
 
